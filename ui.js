@@ -9,8 +9,8 @@ daySfx.autoplay = true;
 nightSfx.autoplay = true;
 
 
-daySfx.volume = 0.1;
-nightSfx.volume = 0.2;
+daySfx.volume = 0.2;
+nightSfx.volume = 0.4;
 
 daySfx.loop = true;
 nightSfx.loop = true;
@@ -27,7 +27,6 @@ function toggleSwitch(switchEl) {
     switchEl.classList.toggle("active");
 
     const clickSfx = new Audio("./click.mp3");
-    clickSfx.volume = 0.5;
     clickSfx.play();
 
     lighting.classList.toggle("active");
