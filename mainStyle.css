@@ -22,6 +22,7 @@
     font-size: var(--font-main);
     overflow: auto;
     font-weight: 900;
+    -webkit-tap-highlight-color: transparent;
 }
 
 html, body {
