@@ -1,0 +1,12 @@
+.crsr-pntr {
+    cursor: pointer;
+}
+
+.flex {
+   display: flex;
+   gap: calc(var(--const-num) * 4)
+}
+
+.visible {
+    overflow: visible;
+}
